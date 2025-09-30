@@ -1,3 +1,4 @@
+import Fifth.Container;
 import First.Palindrome;
 import Fourth.ArrayNumber;
 import Second.Braces;
@@ -16,5 +17,8 @@ public class Main {
 
         // 4. არეიები
         ArrayNumber.run();
+
+        // 5. კონტეინერი
+        Container.run();
     }
 }
