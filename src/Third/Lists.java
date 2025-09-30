@@ -14,6 +14,7 @@ public class Lists {
         List<Integer> firstList = new ArrayList<>(firstSize);
 
         for (int i = 0; i < firstSize; i++) {
+            System.out.println("შემოიყვანეთ მე-" + (i + 1) + " რიცხვი:\n");
             int temp = scanner.nextInt();
             firstList.add(temp);
         }
@@ -23,6 +24,7 @@ public class Lists {
         List<Integer> secondList = new ArrayList<>(secondSize);
 
         for (int i = 0; i < secondSize; i++) {
+            System.out.println("შემოიყვანეთ მე-" + (i + 1) + " რიცხვი:\n");
             int temp = scanner.nextInt();
             secondList.add(temp);
         }

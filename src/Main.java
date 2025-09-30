@@ -1,4 +1,5 @@
 import First.Palindrome;
+import Fourth.ArrayNumber;
 import Second.Braces;
 import Third.Lists;
 
@@ -12,5 +13,8 @@ public class Main {
 
         // 3. ლისტები
         Lists.run();
+
+        // 4. არეიები
+        ArrayNumber.run();
     }
 }
